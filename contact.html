@@ -65,26 +65,28 @@
                             <form class="contact-form" name="contact" method="POST" data-netlify="true">
                                 <!-- netlify attributes to <form> tag -->
                                 <h3>
-                                    <label>naam <br> 
-                                        <input class="user-info" type="text" value="vul hier je naam in" />
+                                    <label>naam <br>
+                                        <input class="user-info" type="text" name="naam" value="vul hier je naam in" />
                                     </label>
                                 </h3>
 
                                 <h3>
-                                    <label>e-mail <br> 
-                                        <input class="user-info" type="email" value="vul hier je e-mailadres in" />
+                                    <label>e-mail <br>
+                                        <input class="user-info" type="email" name="e-mail"
+                                            value="vul hier je e-mailadres in" />
                                     </label>
                                 </h3>
 
                                 <h3>
-                                    <label>bericht <br> 
-                                        <textarea class="contact-form" rows="20" cols="auto">schrijf hier je bericht...
+                                    <label>bericht <br>
+                                        <textarea class="contact-form" name="bericht" rows="20" cols="auto">schrijf hier je bericht...
                                         </textarea>
                                     </label>
                                 </h3>
 
                                 <p>
-                                    <button class="submit-button" type="submit"><h3>verzend</h3>
+                                    <button class="submit-button" type="submit">
+                                        <h3>verzend</h3>
                                     </button>
                                 </p>
 
